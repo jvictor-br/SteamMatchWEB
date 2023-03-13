@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formadebusca {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.formadebusca>.toogleatv,
+.formadebusca>.toogledtv {
+    background-color: #8f98a0;
+    color: white;
+    width: 40%;
+    border: none;
+
+}
+
+.formadebusca>.toogleatv {
+    background-color: #00bbff;
+}
+
+.formadebusca>.toogledtv {
+    background-color: #8f98a0;
+}
+
+.formadebusca>.toogleatv:hover,
+.formadebusca>.toogledtv:hover {
+    cursor: pointer;
+}
+
+.home,
+.controles,
+.lista {
+    padding-top: 100px;
+    height: fit-content;
+    display: flex;
+    background-color: #1b2838;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.lista {
+    min-width: 0px;
+    margin: 0;
+    /* padding: 50px; */
+    padding: 150px 0px;
+}
+
+/* .lista > .carregado:last-child{
+    margin-bottom: 50px;
+} */
+
+.lista>h2 {
+    color: white;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+}
+
+.controles>button {
+    padding: 10px;
+    min-width: 100px;
+    margin: 0;
+    border: none;
+    color: white;
+    background-color: #8f98a0;
+    border-radius: 3px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.controles>button:hover {
+
+    background-color: #00bbff;
+}
+
+.controles {
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #101822;
+    box-shadow: 0px 0px 301px 10px #101822;
+    z-index: 4;
+    position: relative;
+}
+
+.page {
+    background-color: #1b2838;
+    min-height: 100vh;
+}
+
+.cardadd {
+    display: flex;
+    height: 400px;
+    width: 428px;
+    max-width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #101822;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    transition: 1s;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.cardadd>input {
+    background-color: transparent;
+    border: 1px solid #8f98a0;
+    width: 100%;
+    max-width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.cardadd>input:focus {
+    background-color: transparent;
+    border: 1px solid #00bbff;
+    color: white;
+    text-align: center;
+    border-radius: none;
+    outline: none;
+}
+
+.cardadd>p {
+    font-size: small;
+    color: #8f98a0;
+}
+
+.cardadd>.cardaddcontroler>button {
+    background-color: #8f98a0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    transition: 500ms;
+    font-size: large;
+    font-weight: bold;
+}
+
+.cardaddcontroler {
+    display: flex;
+    gap: 10px;
+}
+
+.cardadd>.cardaddcontroler>button:hover {
+    background-color: #00bbff;
+    cursor: pointer;
+}
+
+.cardadd>p>a {
+    color: #00bbff;
+    text-decoration: none;
+}
+
+.cardadd>p>a:hover {
+    cursor: pointer;
+    color: #00bbff;
+}
+
+.cardadd>p>a:active {
+    color: #00bbff;
+}
+
+.none {
+    display: none;
+}
+
+#jogosemcomum {
+    padding-bottom: 50px;
+}

@@ -1,0 +1,26 @@
+.toolbar {
+  width: 100%;
+  height: 150px;
+  background-color: #171a21;
+  color: #8f98a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.toolbar > a {
+  transition: 500ms;
+  cursor: pointer;
+  color: #8f98a0;
+}
+
+.toolbar > a:hover {
+  color: white;
+}
+
+.toolbar > a > span {
+  font-size: small;
+  cursor: pointer;
+}
