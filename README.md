@@ -57,3 +57,10 @@ Inicie o servidor
   npm run start
 ```
 
+## Relacionados
+
+Segue alguns projetos relacionados
+
+[ApiGetGameSteam](https://github.com/jvictor-br/apiGetGameSteam)
+
+[ApiGetUserSteam](https://github.com/jvictor-br/apiGetUserSteam)
